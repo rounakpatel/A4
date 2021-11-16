@@ -22,12 +22,12 @@ interface ICarryPassengers
 
 		public string CarryPassengers()
 		{
-			return "This type of ship does not carry passengers.";
+			return "This type of ship don't carry passengers.";
 		}
 
 		public override string ToString()
 		{
-			return $"A ship that displaces {Math.Round(Displacement, 2)} tons of water";
+			return $"Ship that displaces {Math.Round(Displacement, 2)} tons of water";
 		}
 	}
 
@@ -60,7 +60,7 @@ interface ICarryPassengers
 		}
 		public string CarryPassengers()
 		{
-			return "This type of vehicle does not carry passengers.";
+			return "This type of vehicle don't carry passengers.";
 		}
 
 
@@ -79,7 +79,7 @@ interface ICarryPassengers
 
 		public string CarryPassengers()
 		{
-			return $"{base.ToString()} and is carrying {numPassengers} passengers on a cross country tour.";
+			return $"{base.ToString()} and is carrying {numPassengers} passengers on cross country tour.";
 		}
 		public override string ToString() => CarryPassengers();
 	}
