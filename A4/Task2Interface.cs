@@ -27,7 +27,7 @@ interface ICarryPassengers
 
 		public override string ToString()
 		{
-			return $"Ship that displaces {Math.Round(Displacement, 2)} tons of water";
+			return $"Ship that displaces {Math.Round(Displacement, 2)} tonnes of water";
 		}
 	}
 
